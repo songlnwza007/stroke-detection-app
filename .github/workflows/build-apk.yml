@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
@@ -30,6 +30,7 @@ jobs:
           unzip \
           openjdk-11-jdk \
           autoconf \
+          autoconf-archive \
           libtool \
           pkg-config \
           zlib1g-dev \
