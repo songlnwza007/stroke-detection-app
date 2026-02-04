@@ -1,0 +1,49 @@
+# Buildozer files
+.buildozer/
+.buildozer.backup_old/
+bin/
+*.apk
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+!BUILD_APK.md
+!BUILD_APK_QUICKSTART.md
+!DOCKER_BUILD_GUIDE.md
+!README.md
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Buildozer spec backups
+*.spec.backup
+debug_spec.spec
+
+# Build scripts (keep only the essentials)
+build_apk.bat
+build_apk.sh
+build_apk_docker.bat
+build_apk_docker.sh
+clean_rebuild.ps1
+restart_optimized_build.ps1
+fix_build.sh
+run_build_debug.sh
+wsl_test.txt

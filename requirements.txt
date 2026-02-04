@@ -1,0 +1,22 @@
+# Stroke Detection App Requirements
+# For desktop testing and development
+
+# Core framework
+kivy>=2.2.0
+
+# Computer vision
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# MediaPipe for face mesh and hand tracking
+mediapipe>=0.10.0
+
+# Image handling
+pillow>=10.0.0
+
+# Video playback support for Kivy (optional, for desktop)
+ffpyplayer>=4.5.0
+
+# Android build tool (install separately for building APK)
+# pip install buildozer
+# pip install cython
